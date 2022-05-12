@@ -1,0 +1,37 @@
+@import './bases/generales';
+@import './bases/variables';
+@import './bases/listas';
+@import './bases/media';
+
+html{
+    @include tablet;
+    @include mobile;
+}
+
+body{
+    background:$bg;
+    background:$bg-color-1;
+    
+    }
+
+.tittle{
+    font-family: $nav-font;
+    font-weight: $font-thin;
+    font-size: nth($font-size, 1);
+    @include mobile;
+}
+
+
+
+footer{
+    font-family: $font-tex;
+    text-align: center;
+    background-color: $bg-color-footer;
+    color: $color-text-light;
+    @include mobile;
+
+}
+
+.div-footer{
+    padding-top: 10vh;
+}

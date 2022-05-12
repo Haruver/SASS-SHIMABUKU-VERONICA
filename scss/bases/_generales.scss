@@ -1,0 +1,16 @@
+@import '../bases/variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4{
+    font-family: $font-tex;
+    font-weight: $font-bold;
+}
+.intro{
+    text-align: center;
+}
+

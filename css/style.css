@@ -1,0 +1,114 @@
+/*colores*/
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.intro {
+  text-align: center;
+}
+
+/*colores*/
+/*Font*/
+/*colores*/
+/*Font*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.intro {
+  text-align: center;
+}
+
+/*colores*/
+/*Font*/
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  html {
+    font-size: 20px;
+  }
+  html h1, html h3 {
+    font-size: 20px;
+  }
+  html h4, html h5, html h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 20px;
+  }
+  html h1, html h3 {
+    font-size: 20px;
+  }
+  html h4, html h5, html h6 {
+    font-size: 18px;
+  }
+}
+
+body {
+  background: rgb(231, 251, 190);
+  background: radial-gradient(circle, rgb(231, 251, 190) 23%, rgb(248, 228, 240) 65%);
+}
+
+.tittle {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 100;
+  font-size: 40px;
+}
+@media screen and (max-width: 450px) {
+  .tittle {
+    font-size: 20px;
+  }
+  .tittle h1, .tittle h3 {
+    font-size: 20px;
+  }
+  .tittle h4, .tittle h5, .tittle h6 {
+    font-size: 18px;
+  }
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: violet;
+  color: whitesmoke;
+}
+@media screen and (max-width: 450px) {
+  footer {
+    font-size: 20px;
+  }
+  footer h1, footer h3 {
+    font-size: 20px;
+  }
+  footer h4, footer h5, footer h6 {
+    font-size: 18px;
+  }
+}
+
+.div-footer {
+  padding-top: 10vh;
+}
+
+/*# sourceMappingURL=style.css.map */
